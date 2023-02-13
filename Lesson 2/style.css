@@ -1,0 +1,20 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1px;
+    grid-auto-rows: 200px;
+    /*
+    grid-auto-flow: column;
+    */
+    
+    /*grid-template-rows: repeat(2,200px);*/
+    
+}
+
+.item {
+    border: 2px solid black;
+}
