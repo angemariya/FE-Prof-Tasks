@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#player, #enemy {
+    flex: 1;
+}
+
+#player {
+    margin-right: 20px;
+}
+
+.stat {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.find_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
