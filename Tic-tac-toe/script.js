@@ -1,7 +1,7 @@
 //Model
 const store = {
-    currentTurn: 0,                                        //0-нолики, 1-крестики
-    field: [2, 2, 2, 2, 2, 2, 2, 2, 2]                    //0 -поле ноликов, 1 - поле крестиков, 2 - пустое поле 
+    currentTurn: 0,  //0-нолики, 1-крестики
+    field: [2, 2, 2, 2, 2, 2, 2, 2, 2]  //0 -поле ноликов, 1 - поле крестиков, 2 - пустое поле 
 }; 
 
 const changeCurrentTurn = (value) => {
@@ -12,6 +12,7 @@ const changeCurrentTurn = (value) => {
     store.field[ind] = value;
     onChange();
   };
+
 
 //View
 
