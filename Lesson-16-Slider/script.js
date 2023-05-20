@@ -28,8 +28,6 @@ const renderImages = (data) => {
         return img;
     })
     container.append(...imgs);
-
 }
 
 getData(1, renderImages);
-
